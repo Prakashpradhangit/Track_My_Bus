@@ -1,0 +1,53 @@
+
+.about{
+    background: rgb(238, 236, 236);
+    min-height: 100vh;
+}
+.about .ab-wrapper img{
+    margin-top: 2rem;
+}
+.about .left{
+   display: flex;
+   flex-direction: column;
+}
+.about .left img{
+    max-height: 300px;
+}
+.about .right{
+    margin-top: 20px;
+    text-align: center;
+}
+.about .right .title span{
+    color: #5A20CB;
+}
+
+.about .right .text{
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 10px 25px;
+}
+
+@media(min-width:900px){
+    .about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ab-wrapper{
+        display: flex;
+    }
+    .ab-wrapper .left{
+        max-width: 50%;
+        margin-left: 6rem;
+    }
+    .ab-wrapper .right{
+        width: 40%;
+        margin-left: 6rem;
+    }
+    .about .right{
+        text-align: left;
+    }
+    .about .right .title{
+        margin-left: 1.5rem;
+    }
+}

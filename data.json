@@ -1,0 +1,281 @@
+[
+    {
+            "id" :1,
+			"BusId":1,
+            "name" : "Sriramjee Travels",
+            "info" : "A/C Seater / Sleeper (2+2)",
+            "price": 342,
+            "totTime": "3h 30m",
+            "start": "05:15 AM",
+            "end": "08:45 AM",
+            "fromName": "Balasore",
+            "toName": "Bhubaneswar",
+            "from": "bls",
+            "to": "bbs"
+        },
+        {
+            "id" :2,
+			"BusId":1,
+            "name" : "Sriramjee Benz",
+            "info" : "A/C Seater (2+2)",
+            "price":  351,
+            "totTime": "4h 0m",
+            "start": "06:00 AM",
+            "end": "10:00 AM",
+            "fromName": "Balasore",
+            "toName": "Baramunda",
+            "from": "bls",
+            "to": "bbs"
+        },
+
+        
+        {
+            "id" :3,
+			"BusId":1,
+            "name" : "Sriramjee Benz",
+            "info" : "A/C Seater (2+2)",
+            "price": 361,
+            "totTime": "4h 0m",
+            "start": "07:15 AM",
+            "end": "11:55 AM",
+            "fromName": "Balasore",
+            "toName": "Baramunda",
+            "from": "bls",
+            "to": "bbs"
+        },
+
+        {
+            "id" :4,
+			"BusId":1,
+            "name" : "Sriramjee Travels",
+            "info" : "A/C Seater / Sleeper (2+2)",
+            "price": 342,
+            "totTime": "4h 0m",
+            "start": "10:00 AM",
+            "end": "2:00 PM",
+            "fromName": "Balasore",
+            "toName": "Bhubaneswar",
+            "from": "bls",
+            "to": "bbs"
+        },
+        {
+            "id" :5,
+			"BusId":1,
+            "name" : "Sonax Transport",
+            "info" : "A/C Seater (2+2)",
+            "price": 304,
+            "totTime": "4h 35m",
+            "start": "1:55 PM",
+            "end": "6:30 PM",
+            "fromName": "Balasore",
+            "toName": "Rasulgarh",
+            "from": "bls",
+            "to": "bbs"
+        },
+
+        {
+            "id" :6,
+			"BusId":1,
+            "name" : "Sri Gangotri tours and Travels",
+            "info" : "A/C Sleeper (2+1)",
+            "price": 1200,
+            "totTime": "4h 45m",
+            "start": "3:15 PM",
+            "end": "8:00 PM",
+            "fromName": "Balasore",
+            "toName": "Bhubaneswar",
+            "from": "bls",
+            "to": "bbs"
+        },
+        {
+            "id" :7,
+			"BusId":1,
+            "name" : "Sri Keerthana Sai Travels",
+            "info" : "A/C Seater / Sleeper (2+1)",
+            "price": 300,
+            "totTime": "4h 30m",
+            "start": "5:30 PM",
+            "end": "10:00 PM",
+            "fromName": "Balasore",
+            "toName": "Barmunda",
+            "from": "bls",
+            "to": "bbs"
+        },
+
+    
+        {
+            "id":8,
+			"BusId":1,
+            "name" : "Champaty",
+            "info" : "A/C Seater / Sleeper (2+1)",
+            "price": 297,
+            "totTime": "4h 30m",
+            "start": "6:00 PM",
+            "end": "10:30 AM",
+            "fromName": "Balasore",
+            "toName": "Barmunda ",
+            "from": "bls",
+            "to": "bbs"
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+		"id":9,
+		"BusId":2,
+		"name" : "DAS And DAS Bus",
+		"info" : "A/C Seater / Sleeper (2+2)",
+		"price": 361,
+		"seat":30,
+		"totTime": "4h 56m",
+		"start": "05:30 AM",
+		"end": "10:26 PM",
+		"fromName": "Baripada",
+		"toName": "Rasulgarh",
+		"from": "bpd",
+		"to": "bbs"
+	},
+    {
+		"id":10,
+		"BusId":2,
+		"name" : "Khushi Travels",
+		"info" : "A/C Seater / Sleeper (2+1)",
+		"price": 399,
+        "seat":30,
+		"totTime": "5h 35m",
+		"start": "11:40 AM",
+		"end": "5:15 PM",
+		"fromName": "Baripada",
+		"toName": "Palasuni",
+		"from": "bpd",
+		"to": "bbs"
+	},
+
+    {
+		"id":11,
+		"BusId":2,
+		"name" : "Gajanan Travels",
+		"info" : "A/C Seater / Sleeper (2+1)",
+		"price": 440,
+        "seat":30,
+		"totTime": "5h 0m",
+		"start": "1:00 PM",
+		"end": "5:00 AM",
+		"fromName": "Baripada",
+		"toName": "Bhubaneswar",
+		"from": "bpd",
+		"to": "bbs"
+	},
+
+    {
+		"id":12,
+		"BusId":2,
+		"name" : "Hari Sahoo Travels",
+		"info" : "A/C Seater / Sleeper (2+1)",
+		"price": 440,
+		"totTime": "5h 15m",
+		"start": "1:00 PM",
+		"end": "6:15 AM",
+		"fromName": "Baripada",
+		"toName": "Jaydev Vihar",
+		"from": "bpd",
+		"to": "bbs"
+	},
+
+	{
+		"id":13,
+		"BusId":2,
+		"name" : "Sonax Transport",
+		"info" : "A/C Seater (2+2)",
+		"price": 313,
+        "seat":30,
+		"totTime": "5h 5m",
+		"start": "1:55 PM",
+		"end": "7:00 AM",
+		"fromName": "Baripada",
+		"toName": "Rasulgarh",
+		"from": "bpd",
+		"to": "bbs"
+	},
+
+	
+	{
+		"id":14,
+		"BusId":2,
+		"name" : "Champaty",
+		"info" : "A/C Seater / Sleeper (2+1)",
+		"price": 297,
+        "seat":29,
+		"totTime": "5h 30m",
+		"start": "5:00 PM",
+		"end": "8:30 PM",
+		"fromName": "Baripada",
+		"toName": "Barmunda",
+		"from": "bpd",
+		"to": "bbs"
+	},
+
+	{
+		"id":15,
+		"BusId":2,
+		"name" : "Hari Sahoo Travels",
+		"info" : "A/C Seater / Sleeper (2+2)",
+		"price": 440,
+        "seat":35,
+		"totTime": "6h 30m",
+		"start": "10:30 PM",
+		"end": "05:00 AM",
+		"fromName": "Baripada",
+		"toName": "Vani Vihar",
+		"from": "bpd",
+		"to": "bbs"
+	},
+
+    {
+		"id":16,
+		"BusId":2,
+		"name" : "Hari Sahoo Travels",
+		"info" : "A/C Seater / Sleeper (2+2)",
+		"price": 470,
+        "seat":32,
+		"totTime": "6h 0m",
+		"start": "11:00 PM",
+		"end": "05:00 AM",
+		"fromName": "Baripada",
+		"toName": "Vani Vihar",
+		"from": "bpd",
+		"to": "bbs"
+	},
+
+	{
+		"id":17,
+		"BusId":2,
+		"name" : "Nini Travels",
+		"info" : "A/C Seater / Sleeper (2+2)",
+		"price": 375,
+        "seat":30,
+		"totTime": "5h 37m",
+		"start": "11:23 PM",
+		"end": "05:00 AM",
+		"fromName": "Baripada",
+		"toName": "Jaydev Vihar",
+		"from": "bpd",
+		"to": "bbs"
+	}
+]
+
+	
+		

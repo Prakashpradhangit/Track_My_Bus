@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+:root{
+    --box:#03203C;
+    --text-white:#ffff;
+    --button:#4438FF;
+    --bodyclr:#F6F2F2;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background: var(--bodyclr);
+    
+    font-family: 'Poppins',sans-serif;
+}
+.contact-wrap{
+    display: flex;
+    flex-direction: column;
+}
+header {
+    text-align: center;
+    height: 14vh;
+    background:#03203cf6;
+    color: white;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+nav .far{
+    text-align: left;
+    font-size: 28px;
+    color: #bbb7b7;
+    cursor: pointer;
+    
+}
+nav .far:hover{
+    color: #6785d1;
+}
+nav h2{
+    letter-spacing: 1.5px;
+    padding: 10px 0 0 0;
+}
+nav h2 span{
+    color: var(--button);
+}
+nav p{
+    color: rgb(202, 199, 199);
+    font-size: 15px;
+    padding: 10px;
+}
+section{
+    background: #ffff;
+}
+.left p{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.left p span{
+    color: var(--button);
+}
+.left input[type="text"]{
+    width:90%;
+    height: 2rem;
+    margin: 1rem 1rem;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style:none;
+    outline:none;
+    font-size: 17px;
+    
+}
+.left input[type="text"]:focus{
+    border-color: var(--button);
+}
+.left label{
+    font-size: 17px;
+    margin-left: 1rem; 
+    color: rgba(15, 15, 15, 0.712);
+}
+.left textarea{
+    width: 90%;
+    margin-left: 1rem;
+    outline: none;
+    font-size: 16px;
+    padding-left: 5px;
+    border: 2px solid rgb(112, 108, 108);
+}
+.left textarea:focus{
+    border-color: var(--button);
+}
+
+.left input[type="submit"]{
+    margin-left: 1rem;
+    margin-top: .5rem;
+    padding: .7rem 1.5rem;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background: var(--button);
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.left input[type="submit"]:hover{
+    background: #2F64EC;
+}
+
+.box{
+    background: var(--box);
+    position: relative;
+}
+.box i::before{
+    padding: 0px 10px;
+    
+}
+
+.box h3{
+    text-align: start;
+    margin: 2vh 6px ;
+    color: rgb(228, 225, 225);
+    padding: 1rem;
+    letter-spacing: 1px;
+    letter-spacing: 1.5px;
+    font-size: 21px;   
+}
+.box .text{
+    margin-left: 1rem;
+    
+}
+.box .text p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .6px;
+    color: rgba(255, 255, 255, 0.753);
+}
+.box .icon{
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(207, 204, 204);
+
+}
+.icon i{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.icon i:hover{
+    color: var(--button);
+}
+
+.text::after{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #57B894;
+    top: 50px;
+    right: -50px;
+}
+.text::before{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #2F64EC;
+    top: 50px;
+    right: 40px;
+    z-index: 1;
+}
+
+@media (min-width:900px){
+    .contact-wrap{
+        display: flex;
+        flex-direction: row;
+        height: 90vh;
+        justify-content: space-between;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+    nav .far{
+        display: none;
+    }
+    .left{
+        width: 60%;
+        margin-left: 20px;
+    }
+    .box{
+        width: 40%;
+    }
+     .box h3{
+         margin-top: 100px;
+         text-align: start;
+         margin-left: 10%;
+     }
+     .box .text{
+         margin-left: 10%;
+     }
+     .text::after{
+         top: 64vh;
+     }
+     .text::before{
+         top: 69vh;
+     }
+    
+}

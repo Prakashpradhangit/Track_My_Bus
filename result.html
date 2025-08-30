@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="result.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <title>Searching...</title>
+</head>
+
+<body>
+    <div class="div">
+        <p id="From"></p>
+        <p id="To"></p>
+    </div>
+    <div class="output">
+        <ul id="out">
+
+        </ul>
+    </div>
+
+    <header>
+        <nav>
+            <div class="text">
+                <div class="From" id="From">From</div>
+                <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+                <div class="To" id="To">To</div>
+            </div>
+            <div class="searchmore">
+                <button class="btn" id="searchmore">Search More</button>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="card-wrapper">
+            <ul class="cards" id="output">
+
+            <!-- result cards   -->
+            <!-- TODO: -->
+
+
+                <li class="card">
+
+                    <div class="businfo">
+                        
+                        <div class="text">
+                            <div class="title"><i class="fas fa-bus-alt"></i> Bus Name</div>
+                            <div class="sub-title"><i class="fas fa-info-circle"></i> Bus Info</div>
+                        </div>
+
+                        <div class="route">
+                            <div class="from"> Bls</div>
+                            <div class="arrow"><i class="fas fa-route"></i></i></div>
+                            <div class="to"> Bbs</div>
+                        </div>
+                       
+                        <div class="price">
+                            <div class="cut"> <del><small><sup>1500</sup></small></del></div>
+                            <i class="fas fa-rupee-sign"><i>1330</i></i>
+                        </div>
+                    </div>
+
+                    
+                    <div class="otherinfo">
+                        <div class="seat">
+                            <img src="/img/seat.svg"/>   
+                            <strong>19</strong>
+                        </div>
+                        <div class="time-taken"><i class="fas fa-hourglass-half"></i> 3h: 30m</div>
+                        <div class="time">
+                            <div class="start"> <i class="far fa-clock"></i> 4:30 PM</div>
+                            <div class="end"> 8:30PM</div>
+                        </div>
+                    </div>
+
+                    <div class="call">
+                        <a href="tel:+917008061293">
+                            <i class="fas fa-headset"></i>
+                             Book now!
+                        </a>
+                    </div>
+
+                </li>                 
+
+            </ul>
+        </div>
+    </section>
+
+
+
+    <script src="data.json"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

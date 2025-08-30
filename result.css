@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+:root{
+    --bg-pri-clr:#000A12;
+    --light-black:#242B2E;
+   --txt-color:#ffff;
+    --lin-gra-card:linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+    --btn-color:#6933d6;
+    --btn-hover:#7a46e0;
+    --font-size-sm:14px;
+    --font-size-reg:18px;
+    --font-size-lar:20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Poppins',sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #16124b; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3e3a74; 
+  }
+
+header{
+    height: 9vh;
+    width: auto;
+    /* background: rgb(236, 234, 234); */
+    /* background-image: linear-gradient(to left, #3ab5b0 0%, #3d99be 31%, #56317a 100%); */
+    background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+    box-shadow: 1px 1px 15px 1px #0d7777e7;
+}   
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+ nav .text{
+    margin: 1rem 1rem;
+    display: flex;
+    font-size: 17px;
+}
+.text .From{
+    margin-right: 1rem;
+}
+.text .To{
+    margin-left: 1rem;
+}
+
+.searchmore{
+    margin: .5rem;
+}
+.searchmore .btn{
+    padding: 8px 10px;
+    font-size: var(--font-size-reg);
+    
+    border: 1px solid var(--btn-color);
+    border-radius: 50px;
+    outline: none;
+    background: var(--btn-color);
+    color: var(--txt-color);
+    cursor: pointer;
+}
+.searchmore .btn:hover, :focus{
+    padding: 8px 12px;
+    border: 1px solid var(--btn-hover);
+    background:var(--btn-hover);
+}
+
+/* card wrapper */
+.card-wrapper{
+    margin: 2rem 1rem;
+}
+
+.cards .card{
+    list-style: none;
+    padding:1rem 2rem 0 2rem;
+    
+    background: linear-gradient(to left, #a8edea 0%, #d31a55 100%);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 15px -2px #2caba2;
+    margin-top: 1.5rem;
+    
+    display: flex;
+    flex-direction: column;
+    transition: all .5s ease;
+}
+.cards .card:hover{
+    background: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);
+    box-shadow: 5px 5px 15px -2px #fed6e3a8;
+    
+}
+.card .businfo{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.businfo .text{
+    flex:40%;
+}
+.businfo .text .title{
+    max-width: 150px;
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--btn-color);
+}
+
+.businfo .text .sub-title{
+    font-size: var(--font-size-sm);
+}
+
+.businfo .route{
+    margin-right: 1rem;
+    flex: 30%;
+    text-align: center;
+    justify-content:space-around;
+    font-size: var(--font-size-sm);
+}
+.businfo .route .arrow{
+    font-size: 20px;
+}
+
+.businfo .price{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 15px;
+    flex: 30%;
+    text-align: end;
+}
+.price .fas{
+    margin-top: 5px;
+    color: rgb(97, 1, 1);
+}
+
+.price .cut del{
+    text-align: center;
+    background: #f3c83ad2;
+    padding: 6px 10px 1px 10px;
+    border-radius: 20px 7px;
+    color: rgb(255, 0, 0);
+}
+
+
+.card .otherinfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.3rem;
+    font-size: var(--font-size-sm);
+}
+.otherinfo .seat{
+    flex: 40%;
+    display: flex;
+}
+.otherinfo .seat img{
+    width: 30px;
+    color: red;
+}
+.otherinfo .time-taken{
+    text-align: center;
+    flex: 30%;
+    font-weight: 600;
+    color:black;
+    padding: 6px 9px 0 0;
+}
+.time-taken i{
+    font-size: 18px;
+}
+.otherinfo .time {
+    flex: 30%;
+    text-align: end;
+    position: relative;
+    font-size: var(--font-size-sm);
+    top: -15px;
+}
+.time .start{
+    font-weight: bold;
+}
+.card .call{
+    width: 100%;
+    background-image: linear-gradient(to right, #0acdfeb0, #f89fbbc7 );
+    border-radius: 20px;
+    text-align: center ;
+}
+.card .call a{
+    color: #9b161a;
+    text-decoration: none;  
+    border-radius: 20px;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    padding: 0px 30%;
+    
+   
+}
+.card .call:hover{
+    background-image: linear-gradient(to left, #0acdfeb0, #f89fbbc7 );
+
+}
+
+@media (max-width:540px) {
+    .cards .card{
+        padding: 0.5rem 1rem 0 1rem;
+    }
+
+    .businfo .title , .price{
+        font-size: var(--font-size-sm);
+    }
+
+    
+}
+@media (min-width:900px){
+    nav{
+        justify-content: space-between;
+        margin: 0px 4rem;
+      }
+      nav .text{
+          font-size: 20px;
+      }
+    .card-wrapper{
+        margin: 2rem 2rem;
+    }
+    .businfo .text .title{
+        font-size: 18px;
+        max-width: 200px;
+    }
+    .businfo .text .sub-title{
+        font-size: 15px;
+    }
+    .businfo .route{
+        font-size: 16px;
+    }
+    .businfo .price{
+        font-size: 18px;
+    }
+    .card .otherinfo {
+        font-size: 16px;
+    }
+    .otherinfo .time{
+        font-size: 16pxs;
+    }
+
+
+}
